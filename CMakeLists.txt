@@ -155,7 +155,6 @@ add_subdirectory(include/gmuground)
 add_subdirectory(lib)
 add_subdirectory(apps)
 add_subdirectory(docs)
-add_subdirectory(swig)
 add_subdirectory(python)
 add_subdirectory(grc)
 
