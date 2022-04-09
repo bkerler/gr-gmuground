@@ -457,7 +457,7 @@ blocks:
     samp_rate: samp_rate
     type: fir_filter_ccf
     width: trans_width
-    win: firdes.WIN_HAMMING
+    win: window.WIN_HAMMING
   states:
     bus_sink: false
     bus_source: false
@@ -481,7 +481,7 @@ blocks:
     samp_rate: samp_rate
     type: fir_filter_ccf
     width: trans_width
-    win: firdes.WIN_HAMMING
+    win: window.WIN_HAMMING
   states:
     bus_sink: false
     bus_source: false
@@ -574,7 +574,7 @@ blocks:
     width7: '1'
     width8: '1'
     width9: '1'
-    wintype: firdes.WIN_BLACKMAN_hARRIS
+    wintype: window.WIN_BLACKMAN_hARRIS
     ymax: '10'
     ymin: '-140'
   states:

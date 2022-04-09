@@ -504,7 +504,7 @@ blocks:
     freq_span: samp_rate
     maxoutbuf: '0'
     minoutbuf: '0'
-    wintype: firdes.WIN_BLACKMAN_hARRIS
+    wintype: window.WIN_BLACKMAN_hARRIS
   states:
     bus_sink: false
     bus_source: false

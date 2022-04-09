@@ -850,7 +850,7 @@ blocks:
     gui_hint: Display@0
     maxoutbuf: '0'
     minoutbuf: '0'
-    wintype: firdes.WIN_BLACKMAN_hARRIS
+    wintype: window.WIN_BLACKMAN_hARRIS
   states:
     bus_sink: false
     bus_source: false
@@ -1060,7 +1060,7 @@ blocks:
     samp_rate: samp_rate
     type: fir_filter_ccf
     width: 1e3
-    win: firdes.WIN_HAMMING
+    win: window.WIN_HAMMING
   states:
     bus_sink: false
     bus_source: false
@@ -1106,7 +1106,7 @@ blocks:
     showports: 'False'
     showrf: 'True'
     type: float
-    wintype: firdes.WIN_BLACKMAN_hARRIS
+    wintype: window.WIN_BLACKMAN_hARRIS
   states:
     bus_sink: false
     bus_source: false
